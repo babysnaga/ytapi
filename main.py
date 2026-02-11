@@ -11,7 +11,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://babypinmanager.lovable.app/"],  # depois a gente restringe pro seu domínio do Lovable
+    allow_origins=["https://babypinmanager.lovable.app"],  # depois a gente restringe pro seu domínio do Lovable
     allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"],
